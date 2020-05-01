@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">&#9200;</a>
+          <h1 class="time"></h1>
+    <div id="main"></div>
+        </div>
+      </nav>
+   
+
+    <div class="container">
+        <h1>Click on the correct answer</h1>
+<div id="quizContent" class="row quiz">
+<div class="col-sm-12">
+    <h2 id="quizHeader"></h2>
+</div>
+<div id="questions" class="row">
+    <div class="col-sm-6"> <a data-id="1" class="btn btn-default answer">1</a></div>
+    <div class="col-sm-6"> <a data-id="2" class="btn btn-default answer">2</a></div>
+    <div class="col-sm-6"> <a data-id="3" class="btn btn-default answer">3</a></div>
+    <div class="col-sm-6"> <a data-id="4" class="btn btn-default answer">4</a></div>
+</div>
+</div>
+
+<div class="row pageMovement">
+    <div id="btnPrevious" class="col-xs-5 col-sm-4 btn btn-primary pull-left">Previous  </div>
+    <div id="btnNext" class="col-xs-5 col-sm-4 col-sm-offset-4 col-xs-offset-2 btn btn-primary pull-right">Next</div>
+      </div>
+    </div>
+
+    <div class="row">
+        <div id="finishQuiz" class="btn btn-success btn-block hide"> Submit Quiz</div>
+      </div>
+
+    <div class="row progress">
+        <div id="progressBar" class="progress-bar progress-bar-success progress-bar-striped " role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"> 0% complete</div>
+      </div>
+    <script src="./script.js"></script>
+</body>
+</html>

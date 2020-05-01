@@ -1,0 +1,53 @@
+.col-sm-6 {
+  padding: 30px;
+}
+.pageMovevement {
+  margin-top: 25px;
+}
+.answer {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+  background: #C6F3FF;
+}
+.container {
+  border: solid 1px #D8D8D8;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.progress {
+  margin-top: 25px;
+  border-radius: 5px;
+
+}
+
+#finishQuiz {
+  padding: 20px;
+  border-radius: 5px;
+}
+.output {
+  font-size: 20px;
+}
+.glyphicon-ok-circle {
+  color: #00FF64;
+}
+
+.glyphicon-remove-circle {
+background: #4E9267;
+}
+.selAnswer {
+  background: #4E9267;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.navbar-brand {
+  font-size: 60px;
+}
